@@ -1,5 +1,5 @@
 ## hmBC_Generate Barcode (Info) → Status
-###### Introduced in v2, Preemptive: no
+###### Introduced in v18, Preemptive: yes
 
 |Parameter|Type|In/Out|Description
 |---|---|:---:|---
