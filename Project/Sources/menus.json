@@ -1,0 +1,80 @@
+{
+	"bars": [
+		{
+			"id": 1,
+			"name": "Menüleiste Nr. 1",
+			"items": [
+				{
+					"link": 15091
+				},
+				{
+					"link": 15446
+				}
+			]
+		}
+	],
+	"menus": [
+		{
+			"link": 15446,
+			"title": ":79,5",
+			"items": [
+				{
+					"title": ":131,18",
+					"shortcutAccel": true,
+					"shortcutKey": "Z",
+					"action": "undo"
+				},
+				{
+					"title": "(-",
+					"isSeparator": true
+				},
+				{
+					"title": ":131,20",
+					"shortcutAccel": true,
+					"shortcutKey": "X",
+					"action": "cut"
+				},
+				{
+					"title": ":131,21",
+					"shortcutAccel": true,
+					"shortcutKey": "C",
+					"action": "copy"
+				},
+				{
+					"title": ":131,22",
+					"shortcutAccel": true,
+					"shortcutKey": "V",
+					"action": "paste"
+				},
+				{
+					"title": ":131,23",
+					"action": "clear"
+				},
+				{
+					"title": ":131,24",
+					"shortcutAccel": true,
+					"shortcutKey": "A",
+					"action": "selectAll"
+				},
+				{
+					"title": "(-",
+					"isSeparator": true
+				},
+				{
+					"title": ":131,25",
+					"action": "showClipboard"
+				}
+			]
+		},
+		{
+			"link": 15091,
+			"title": "Datei",
+			"items": [
+				{
+					"title": "Barcode test",
+					"method": "Barcode_Dialog"
+				}
+			]
+		}
+	]
+}

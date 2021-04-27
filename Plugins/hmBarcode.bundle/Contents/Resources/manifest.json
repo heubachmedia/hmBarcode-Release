@@ -1,0 +1,22 @@
+{
+    "name":"hmBarcode",
+    "id":15126,
+    "commands":[
+                {
+                "theme":"hmBarcode",
+                "syntax":"hmBC_Register(&T):L",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmBarcode",
+                "syntax":"hmBC_Generate Barcode(&J):J",
+				"threadSafe": true
+                },
+                {
+                "theme":"hmBarcode",
+                "syntax":"hmBC_Get Barcode List:C",
+				"threadSafe": true
+                }
+                ]
+
+}

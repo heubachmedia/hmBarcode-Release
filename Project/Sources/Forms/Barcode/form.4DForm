@@ -1,0 +1,457 @@
+{
+	"destination": "detailScreen",
+	"windowMinWidth": 1000,
+	"windowMinHeight": 500,
+	"width": 1000,
+	"height": 550,
+	"markerBody": 376,
+	"markerBreak": 376,
+	"markerFooter": 386,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "DIN A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"vb_picture": {
+					"type": "input",
+					"top": 145,
+					"left": 9,
+					"width": 537,
+					"height": 386,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSourceTypeHint": "picture",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"pictureFormat": "proportionalCenter",
+					"dragging": "custom",
+					"dataSource": "Form:C1466.picture"
+				},
+				"vt_input": {
+					"type": "input",
+					"top": 12,
+					"left": 103,
+					"width": 884,
+					"height": 46,
+					"sizingX": "grow",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"contextMenu": "none",
+					"method": "ObjectMethods/vt_input.4dm",
+					"events": [
+						"onDataChange",
+						"onAfterKeystroke",
+						"onAfterEdit"
+					],
+					"dataSource": "Form:C1466.input"
+				},
+				"vl_create": {
+					"type": "button",
+					"top": 94,
+					"left": 9,
+					"width": 105,
+					"height": 21,
+					"text": "Create",
+					"class": "Default",
+					"method": "ObjectMethods/vl_create.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"tl_sizes": {
+					"type": "dropdown",
+					"top": 94,
+					"left": 582,
+					"width": 105,
+					"height": 21,
+					"sizingX": "move",
+					"dataSourceTypeHint": "object",
+					"focusable": false,
+					"class": "",
+					"method": "ObjectMethods/tl_sizes.4dm",
+					"events": [
+						"onClick"
+					],
+					"numberFormat": "",
+					"dataSource": "Form:C1466.sizes"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 97,
+					"left": 537,
+					"width": 45,
+					"height": 16,
+					"sizingX": "move",
+					"class": "Default",
+					"text": "Size:"
+				},
+				"tt_types": {
+					"type": "dropdown",
+					"top": 94,
+					"left": 185,
+					"width": 340,
+					"height": 21,
+					"sizingX": "grow",
+					"dataSource": "Form:C1466.types",
+					"focusable": false,
+					"class": "Default",
+					"method": "ObjectMethods/tt_types.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text2": {
+					"type": "text",
+					"top": 96,
+					"left": 134,
+					"width": 45,
+					"height": 16,
+					"class": "Default",
+					"text": "Typ:"
+				},
+				"vl_close": {
+					"type": "button",
+					"top": 0,
+					"left": 0,
+					"width": 15,
+					"height": 11,
+					"action": "cancel",
+					"shortcutKey": "[Esc]",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"vt_errortext": {
+					"type": "input",
+					"top": 121,
+					"left": 9,
+					"width": 680,
+					"height": 16,
+					"stroke": "#EE0000",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					],
+					"dataSource": "Form:C1466.errorText"
+				},
+				"Gruppenrahmen": {
+					"type": "groupBox",
+					"top": 396,
+					"left": 559,
+					"width": 428,
+					"height": 143,
+					"sizingX": "move",
+					"sizingY": "move",
+					"class": "Default",
+					"text": "Options"
+				},
+				"Gruppenrahmen1": {
+					"type": "groupBox",
+					"top": 126,
+					"left": 559,
+					"width": 428,
+					"height": 263,
+					"sizingX": "move",
+					"sizingY": "grow",
+					"class": "Default",
+					"text": "Description"
+				},
+				"vt_description": {
+					"type": "input",
+					"top": 157,
+					"left": 568,
+					"width": 395,
+					"height": 219,
+					"sizingX": "move",
+					"sizingY": "grow",
+					"contextMenu": "none",
+					"scrollbarVertical": "automatic",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					],
+					"dataSource": "Form:C1466.description"
+				},
+				"vl_save": {
+					"type": "button",
+					"top": 95,
+					"left": 892,
+					"width": 79,
+					"height": 20,
+					"sizingX": "move",
+					"shortcutKey": "s",
+					"shortcutAccel": true,
+					"text": "Save",
+					"class": "Default",
+					"method": "ObjectMethods/vl_save.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"vt_option_text3": {
+					"type": "text",
+					"top": 488,
+					"left": 568,
+					"width": 125,
+					"height": 19,
+					"sizingX": "move",
+					"sizingY": "move",
+					"class": "Default",
+					"text": "option3"
+				},
+				"tt_option3": {
+					"type": "dropdown",
+					"top": 486,
+					"left": 714,
+					"width": 266,
+					"height": 20,
+					"sizingX": "move",
+					"sizingY": "move",
+					"focusable": false,
+					"method": "ObjectMethods/tt_option3.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"tl_option3": {
+					"type": "dropdown",
+					"top": 486,
+					"left": 1007,
+					"width": 266,
+					"height": 20,
+					"visibility": "hidden",
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSourceTypeHint": "arrayNumber",
+					"focusable": false
+				},
+				"vt_option_text1": {
+					"type": "text",
+					"top": 428,
+					"left": 568,
+					"width": 125,
+					"height": 19,
+					"sizingX": "move",
+					"sizingY": "move",
+					"class": "Default",
+					"text": "option1"
+				},
+				"tt_option1": {
+					"type": "dropdown",
+					"top": 426,
+					"left": 714,
+					"width": 266,
+					"height": 20,
+					"sizingX": "move",
+					"sizingY": "move",
+					"focusable": false,
+					"method": "ObjectMethods/tt_option1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"tl_option1": {
+					"type": "dropdown",
+					"top": 426,
+					"left": 1007,
+					"width": 266,
+					"height": 20,
+					"visibility": "hidden",
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSourceTypeHint": "arrayNumber",
+					"focusable": false
+				},
+				"vt_option_text2": {
+					"type": "text",
+					"top": 458,
+					"left": 568,
+					"width": 125,
+					"height": 19,
+					"sizingX": "move",
+					"sizingY": "move",
+					"class": "Default",
+					"text": "option2"
+				},
+				"tt_option2": {
+					"type": "dropdown",
+					"top": 456,
+					"left": 714,
+					"width": 266,
+					"height": 20,
+					"sizingX": "move",
+					"sizingY": "move",
+					"focusable": false,
+					"method": "ObjectMethods/tt_option2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"tl_option2": {
+					"type": "dropdown",
+					"top": 456,
+					"left": 1007,
+					"width": 266,
+					"height": 20,
+					"visibility": "hidden",
+					"sizingX": "move",
+					"sizingY": "move",
+					"dataSourceTypeHint": "arrayNumber",
+					"focusable": false
+				},
+				"Text3": {
+					"type": "text",
+					"top": 12,
+					"left": 5,
+					"width": 85,
+					"height": 16,
+					"class": "Default",
+					"text": "Input:"
+				},
+				"vt_primary": {
+					"type": "input",
+					"top": 72,
+					"left": 103,
+					"width": 884,
+					"height": 16,
+					"sizingX": "grow",
+					"fontFamily": "System Font",
+					"fontSize": 12,
+					"contextMenu": "none",
+					"method": "ObjectMethods/vt_primary.4dm",
+					"events": [
+						"onDataChange",
+						"onAfterKeystroke",
+						"onAfterEdit"
+					],
+					"dataSource": "Form:C1466.primary"
+				},
+				"Text4": {
+					"type": "text",
+					"top": 72,
+					"left": 5,
+					"width": 105,
+					"height": 16,
+					"class": "Default",
+					"text": "Primary input:"
+				},
+				"vl_show_hrt": {
+					"type": "checkbox",
+					"top": 511,
+					"left": 568,
+					"width": 372,
+					"height": 20,
+					"sizingX": "move",
+					"sizingY": "move",
+					"text": "Show human readable text",
+					"method": "ObjectMethods/vl_show_hrt.4dm",
+					"events": [
+						"onClick"
+					],
+					"dataSourceTypeHint": "boolean",
+					"dataSource": "Form:C1466.showHumanReadableText"
+				},
+				"tt_mode": {
+					"type": "dropdown",
+					"top": 94,
+					"left": 747,
+					"width": 140,
+					"height": 21,
+					"sizingX": "move",
+					"focusable": false,
+					"class": "",
+					"method": "ObjectMethods/tt_mode.4dm",
+					"events": [
+						"onClick"
+					],
+					"dataSource": "Form:C1466.mode"
+				},
+				"Text5": {
+					"type": "text",
+					"top": 96,
+					"left": 696,
+					"width": 45,
+					"height": 16,
+					"sizingX": "move",
+					"class": "Default",
+					"text": "Mode:"
+				}
+			},
+			"entryOrder": [
+				"vt_input",
+				"vl_create",
+				"tl_sizes",
+				"tt_types",
+				"vt_errortext",
+				"vt_description",
+				"vl_save",
+				"tt_option3",
+				"tl_option3",
+				"tt_option1",
+				"tl_option1",
+				"tt_option2",
+				"tl_option2",
+				"vt_primary",
+				"vl_show_hrt",
+				"tt_mode"
+			]
+		}
+	],
+	"editor": {
+		"activeView": "Ebene 1",
+		"defaultView": "Ebene 1",
+		"views": {
+			"Ebene 1": {},
+			"Ebene 2": {},
+			"Ebene 3": {},
+			"Ebene 4": {},
+			"Ebene 5": {},
+			"Ebene 6": {},
+			"Ebene 7": {},
+			"Ebene 8": {},
+			"Ebene 9": {}
+		}
+	},
+	"geometryStamp": 4,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}
