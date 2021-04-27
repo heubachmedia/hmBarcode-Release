@@ -10,25 +10,25 @@
 The command *hmBC_Generate Barcode* generates a barcode with the information from the *Info* parameter.
 Attributes of the Info-object:
 
-* *text* (Text, mandatory): text of the barcode to decode
-* *symbology* (Integer, optional): type of the barcode, default is *Code 128* if not passed
-* *option1* (Integer, optional): option 1 (see demo database for possible values) 
-* *option2* (Integer, optional): option 2 (see demo database for possible values) 
-* *option3* (Integer, optional): option 3 (see demo database for possible values) 
-* *showtext* (Boolean, optional): shows a human readable text below the barcode, if supported
-* *mode* (Integer, optional): decode mode (default is *hmBC_Input_Data Mode* if not passed), you can use the following constants:
-** *hmBC_Input_Data Mode*
-** *hmBC_Input_Unicode Mode*
-** *hmBC_Input_GS1 Mode*
-** *hmBC_Input_Escape Mode*
-* *primary* (Text, optional): additional text, depends of the barcode, see demo database.
+- *text* (Text, mandatory): text of the barcode to decode
+- *symbology* (Integer, optional): type of the barcode, default is *Code 128* if not passed
+- *option1* (Integer, optional): option 1 (see demo database for possible values) 
+- *option2* (Integer, optional): option 2 (see demo database for possible values) 
+- *option3* (Integer, optional): option 3 (see demo database for possible values) 
+- *showtext* (Boolean, optional): shows a human readable text below the barcode, if supported
+- *mode* (Integer, optional): decode mode (default is *hmBC_Input_Data Mode* if not passed), you can use the following constants:
+    - *hmBC_Input_Data Mode*
+    - *hmBC_Input_Unicode Mode*
+    - *hmBC_Input_GS1 Mode*
+    - *hmBC_Input_Escape Mode*
+- *primary* (Text, optional): additional text, depends of the barcode, see demo database.
 
 *Status* returns an object with the result or possible errors:
 
-* *picture* (Picture): SVG-picture of the barcode or **Null** if an error occurs
-* *error* (Integer): error code, 0 if success
-* *error_text* (Text): error text
-* *success* (Boolean): **True** if the creation was successful
+- *picture* (Picture): SVG-picture of the barcode or **Null** if an error occurs
+- *error* (Integer): error code, 0 if success
+- *error_text* (Text): error text
+- *success* (Boolean): **True** if the creation was successful
 
 ### Example
 The following example creates a QR Code picture and saves it to disk:
@@ -46,6 +46,10 @@ If ($vo_status.success)
 	WRITE PICTURE FILE("test.svg"; $vo_status.picture)
 End if 
  ```
+
+Result:
+
+![Result](Example1.svg)
 
 The following example creates a GS1-128 Barcode:
 
