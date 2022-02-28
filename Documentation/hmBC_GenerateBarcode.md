@@ -22,10 +22,15 @@ Attributes of the Info-object:
     - *hmBC_Input_GS1 Mode*
     - *hmBC_Input_Escape Mode*
 - *primary* (Text, optional): additional text, depends of the barcode, see demo database.
+- *output* (Text, optional, default = "svg"):
+    - *"svg"*: Status object returns a SVG picture
+    - *"matrix"*:  Status object returns matrix-text with 0, 1 and comma drawing information
+
 
 *Status* returns an object with the result or possible errors:
 
-- *picture* (Picture): SVG-picture of the barcode or **Null** if an error occurs
+- *picture* (Picture): SVG-picture of the barcode or **Null** if an error occurs. *output* must be "svg"
+- *matrix* (Text): drawing information of the barcode: 0 (white), 1 (black) and comma (next line). *output* must be "matrix"
 - *error* (Integer): error code, 0 if success
 - *error_text* (Text): error text
 - *success* (Boolean): **True** if the creation was successful

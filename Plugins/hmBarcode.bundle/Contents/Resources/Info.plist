@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>CFBuildNumber</key>
-	<string>1584</string>
+	<string>1593</string>
 	<key>CFBuildVersion</key>
 	<string>19.0.0</string>
 	<key>CFBundleDevelopmentRegion</key>
@@ -17,11 +17,11 @@
 	<key>CFBundlePackageType</key>
 	<string>4DCB</string>
 	<key>CFBundleShortVersionString</key>
-	<string>19.0.0.1584</string>
+	<string>19.0.0.1593</string>
 	<key>CFBundleSignature</key>
 	<string>4D06</string>
 	<key>CFBundleVersion</key>
-	<string>19.0.0.1584</string>
+	<string>19.0.0.1593</string>
 	<key>CSResourcesFileMapped</key>
 	<true/>
 </dict>
