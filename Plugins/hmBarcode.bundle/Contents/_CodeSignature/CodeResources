@@ -6,25 +6,34 @@
 	<dict>
 		<key>Resources/Constants.xlf</key>
 		<data>
-		KcCzwoTJHhMr75Qb++eqSWRnHkg=
+		9lSK2Sq4zy5iBQeAxQqCcZE3NZs=
 		</data>
-		<key>Resources/English.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			RUT3Ua+kg+JBTWdK1mtEtYgOR0w=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		sEe6bxG0viPKm8zAE7/qX3o8zQI=
+		APNRsgVSB/cxJPHfm2+pvZ5D0S0=
 		</data>
 		<key>Resources/PkgInfo</key>
 		<data>
 		N+qKX+/cKypd0ObNARd+CdjYoPE=
 		</data>
+		<key>Resources/de.lproj/InfoPlist.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2jcxFWeCdtQei7gF0ZLh5AXIp5Q=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/en.lproj/InfoPlist.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XawJFrfX/qut9TT0nJzJjXrM9Rk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>Resources/manifest.json</key>
 		<data>
 		MOiBF6A19G/oz5gb5pHeOTHkIak=
@@ -36,23 +45,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wQZwe5Yte5361jDT9QT5fNZCFVsPKYUsWGe6XwEHd0I=
+			Nl+kzJPIHlDMIr8FMknQ5Kx8KNNBxkJBLQG+tYLqLX8=
 			</data>
-		</dict>
-		<key>Resources/English.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Ve1JuvI+Y6UCH8rKvdGE0ajaOgXxIyyh7jP/wsoZjYo=
-			</data>
-			<key>optional</key>
-			<true/>
 		</dict>
 		<key>Resources/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PdfbxxPbFnyaJEBH22uzclt4QIRD6R6zPRpQd2AoY9k=
+			iRgZn7BUgztQ5tzmuU4mi3Hj6GBfxA7am+Wzo3Sq9x0=
 			</data>
 		</dict>
 		<key>Resources/PkgInfo</key>
@@ -61,6 +61,24 @@
 			<data>
 			V0bnA2rwQJFMKb17TeTxuX5lnl7e0Pz7HqDhPQMMSXA=
 			</data>
+		</dict>
+		<key>Resources/de.lproj/InfoPlist.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			grqZnjM1OWOm4UwLSMiV0mulOYIuM5+x1dQGGqks8yw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/en.lproj/InfoPlist.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4UC0prJ3kaNwdtjmMoMbbEWlPGKFtsyw+eLx6WJR4nA=
+			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
 		<key>Resources/manifest.json</key>
 		<dict>
@@ -73,7 +91,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			e4gEio6Rs9c2iY1NFxRwiztRjtu1a84N22zyNwuIHRc=
+			Gz3PPTH80NTDPU5F+/8xvCjZl8d2FW8OtmehsjB9wsY=
 			</data>
 		</dict>
 	</dict>

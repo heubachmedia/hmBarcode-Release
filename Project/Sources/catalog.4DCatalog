@@ -26,7 +26,7 @@
 			<table_ref uuid="B074C15E1C8F427F97254F4A485D4321" name="Barcode_Descriptions"/>
 		</field_ref>
 	</index>
-	<base_extra data_file_path=":Demo.4DD" __stringCompHash="icu:68.1.0" __keywordBuildingHash="icu:68.1.0">
+	<base_extra data_file_path=":Demo.4DD" __stringCompHash="icu:72.1.0" __keywordBuildingHash="icu:72.1.0">
 		<temp_folder folder_selector="data"/>
 	</base_extra>
 </base>
