@@ -1,6 +1,6 @@
-## hmBarcode v19
-hmBarcode v19 is build for 4D v19 available for Intel and Apple Silicon processors (Universal)
-hmBarcode v19 has the **same** system requirements as 4D v19.
+## hmBarcode v20
+hmBarcode v20 is build for 4D v20 available for Intel and Apple Silicon processors (Universal)
+hmBarcode v20 has the **same** system requirements as 4D v20.
 
 ### Command Reference
 [hmBarcode Commands Reference](Documentation/Commands.md)
