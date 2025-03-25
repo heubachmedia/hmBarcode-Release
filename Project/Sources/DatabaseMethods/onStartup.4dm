@@ -1,4 +1,4 @@
-C_LONGINT:C283($vl_result)
+var $vl_result : Integer
 
 If (Shift down:C543)
 	TRACE:C157
